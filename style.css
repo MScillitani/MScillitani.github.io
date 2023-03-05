@@ -11,6 +11,7 @@ td, th {
   }
   
   h2, h3 {
+    padding-left: 10%;
     color: orange;
     text-align: left;
   }
