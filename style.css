@@ -1,0 +1,35 @@
+td, th {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 2px;
+    table-layout: fixed;
+    color: white
+  }
+  
+  h2, h3 {
+    color: orange;
+    text-align: left;
+  }
+  
+  h1 {
+    color: orange;
+    text-align: center;
+  }
+  
+  h4 {
+    color: white;
+    text-align: center;
+  }
+  
+  a, u {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: Aqua;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: GreenYellow;
+  }
