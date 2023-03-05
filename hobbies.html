@@ -18,7 +18,7 @@
         </td></tr>
         </table>
 
-    <h3>&#9654 My Hobbies</h3>
+    <h2>My Hobbies</h2>
     </br>
     <h3>&#9654 Weight Training</h3>
         <p>
@@ -30,5 +30,28 @@
             <li>Conventional deadlift: 535 lb</li>
             <li>Shoulder press: 205 lb</li>
         </p>
+    </br>
+
+    <h3>&#9654 ThinkPad Modding & Optimization</h3>
+    <p>
+            It may sound strange to the uninitiated, but ThinkPads are seriously cool computers. I've owned five and kept three of those, being a T520, X220, and T60.
+    </br>   T520:
+            <li>OS: dual-boot Linux Mint and Windows 10</li>
+            <li>Screen: upgraded from 1366x768p to 1920x1080p</li>
+            <li>CPU: upgraded from dual-core i5-2520M to quad-core i7-2760QM</li>
+            <li>RAM: upgraded from 4GB single-channel @ 1333MHz to 8GB dual-channel @ 1600MHz</li>
+            <li>WiFi: upgraded from stock to Dell Intel AC 7260 (300 Mbps to 1200 Mbps)</li>
+            <li>BIOS: modded to unlock advanced features and remove whitelist</li>
+    </br>   The first issue I ran into was poor CPU thermals at idle and under load. After all, this model's fan wasn't intended to cool a quad-core i7.
+    </br>   To cool the CPU, I lowered the CPU frequency and adjusted the fan speeds and trip points in the BIOS. By defualt, these were set to 55C and 75C with speeds of ~1200RPM and ~2400RPM.
+            By changing the lo trip point to 47C and the hi trip point to 63C with respective speeds of 2400 RPM and 6400 RPM, I was able to prevent thermal throttling from ever being in the cards.
+            It may seem counter-productive, but I also enabled hyper-threading. With hyper-threading enabled, CPU core temps were slightly higher (2-3 C). But tasks finished so much faster that the
+            CPU was under load for short periods of time.
+    </br>   X220 & T60:
+            <li>OS: Debian and Zorin OS, respectively</li>
+            <li>Secondary storage: HDD to SSD</li>
+    </br>   No other modifications have been made to these laptops yet. But eventually I intend on replacing the X220's stock BIOS with coreboot. The T60 was the last model without Intel ME, so I
+            keep it around for privacy reasons.
+    </p>
 </body>
 </html>
