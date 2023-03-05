@@ -24,6 +24,10 @@ td, th {
     color: white;
     text-align: center;
   }
+
+  p {
+    padding-right:20%;
+  }
   
   a, u {
     text-decoration: none;
