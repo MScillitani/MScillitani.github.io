@@ -5,6 +5,10 @@ td, th {
     table-layout: fixed;
     color: white
   }
+
+  body {
+    color: DarkSlateGray;
+  }
   
   h2, h3 {
     color: orange;
