@@ -27,6 +27,8 @@ td, th {
 
   p {
     padding-right:20%;
+    text-align: left;
+    color: white;
   }
   
   a, u {
