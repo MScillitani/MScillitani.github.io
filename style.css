@@ -25,7 +25,7 @@ td, th {
     text-align: center;
   }
 
-  p {
+  p, li {
     padding-right:20%;
     text-align: left;
     color: white;
